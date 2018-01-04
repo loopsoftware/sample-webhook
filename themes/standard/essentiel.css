@@ -1,0 +1,377 @@
+.x-panel-sigTableRowHeader{
+	background-color: #f5f5f5;
+	height: 36px !important;
+	height: 3.6vh !important;
+}
+
+.x-panel-sigTableRow0{
+	background-color: #fff;
+	border-bottom: 1px solid #C3C3C3;
+	height: 51px !important;
+	height: 5.1vh !important;
+}
+
+.x-panel-sigTableRow1{
+	background-color: #ebebeb;
+	border-bottom: 1px solid #C3C3C3;
+	height: 37px !important;
+	height: 3.7vh !important;
+}
+
+.x-panel-sigTableRow2{
+	background-color: #fff;
+	border-bottom: 1px solid #C3C3C3;
+	height: 60px !important;
+	height: 6.0vh !important;
+}
+
+.x-panel-sigTableRow3{
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #C3C3C3;
+	height: 55px !important;
+	height: 5.5vh !important;
+}
+
+
+.x-container-labelColumn {
+	border-right: 1px solid #C3C3C3;
+}
+
+.x-container-dataColumn {
+	border-right: 1px solid #C3C3C3;
+}
+
+.x-label-sigTableHeader, .x-component-sigTableHeader{
+	font-size: 14px;
+	font-size: 1.4vh;
+	line-height: 36px;
+	line-height: 3.6vh;
+	margin-left: 10px;
+	/*border-bottom: solid 1px transparent;*/
+	cursor: pointer;
+}
+
+.x-label-sigTableHeader{
+	display: inline-block;
+}
+
+.x-label-sigTableHeader .x-innerhtml{
+	display: inline-block;
+}
+
+
+/* Expand BUTTON */
+.x-label-sigExpandButton, .x-component-sigExpandButton {
+	position: absolute;
+	right: 10px;
+	right: 1.0vh;
+	top: 6px;
+	top: 0.6vh;
+	cursor: pointer;
+}
+
+.x-label-sigExpandButton:before, .x-component-sigExpandButton:before{
+	font-size: 16px !important;
+	font-size: 1.6vh !important;
+	font-family: ypicto;
+}
+
+
+/* TITLE CELL */
+.x-container-sigTableTitleCell0, .x-container-sigTableTitleCell1, .x-container-sigTableTitleCell2, .x-container-sigTableTitleCell3{
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+.x-container-sigTableTitleCell0 .x-label, .x-container-sigTableTitleCell1 .x-label, .x-container-sigTableTitleCell2 .x-label, .x-container-sigTableTitleCell3 .x-label, .x-container-sigTableTitleCell0 label, .x-container-sigTableTitleCell1 label, .x-container-sigTableTitleCell2 label, .x-container-sigTableTitleCell3 label{
+	display: block;
+	font-size: 14px;
+	font-size: 1.4vh;
+}
+
+.x-container-icon {
+	position: absolute;
+	top:0;
+	right: 0;
+	border-left: 1px solid #c3c3c3;
+	width: 39px;
+	width: 3.9vh;
+	text-align: center;
+}
+
+/* TITLE CELL 0 */
+.x-container-sigTableTitleCell0 label, .x-container-sigTableTitleCell0 .x-label{
+	height: 51px;
+	height: 5.1vh;
+	line-height: 51px;
+	line-height: 5.1vh;
+	padding: 0 10px;
+	padding: 0 1.0vh;
+}
+
+.x-container-sigTableTitleCell0 .x-container-icon {
+	height: 51px;
+	height: 5.1vh;
+	line-height: 51px;
+	line-height: 5.1vh;
+}
+
+/* TITLE CELL 1 */
+.x-container-sigTableTitleCell1 label, .x-container-sigTableTitleCell1 .x-label{
+	height: 37px;
+	height: 3.7vh;
+	line-height: 37px;
+	line-height: 3.7vh;
+	padding: 0 10px;
+	padding: 0 1.0vh;
+	font-weight: bold;
+}
+
+.x-container-sigTableTitleCell1 .x-container-icon {
+	height: 37px;
+	height: 3.7vh;
+	line-height: 37px;
+	line-height: 3.7vh;
+}
+
+/* TITLE CELL 2 */
+.x-container-sigTableTitleCell2 label, .x-container-sigTableTitleCell2 .x-label{
+	height: 60px;
+	height: 6.0vh;
+	line-height: 60px;
+	line-height: 6.0vh;
+	padding: 0 10px;
+	padding: 0 1.0vh;
+}
+
+.x-container-sigTableTitleCell2 .x-container-icon {
+	height: 60px;
+	height: 6.0vh;
+	line-height: 60px;
+	line-height: 6.0vh;
+}
+
+/* TITLE CELL 3 */
+.x-container-sigTableTitleCell3 label, .x-container-sigTableTitleCell3 .x-label{
+	height: 55px;
+	height: 5.5vh;
+	line-height: 55px;
+	line-height: 5.5vh;
+	padding: 0 10px;
+	padding: 0 1.0vh;
+	font-weight: bold;
+}
+
+.x-container-sigTableTitleCell3 .x-container-icon {
+	height: 55px;
+	height: 5.5vh;
+	line-height: 55px;
+	line-height: 5.5vh;
+}
+
+/* ICONS */
+.x-container-icon.sunny:before {
+	content: "\e619";
+	font-family: awspicto;
+	font-size: 27px;
+	font-size: 2.7vh;
+}
+
+.x-container-icon.cloudy:before {
+	content: "\e60b";
+	font-family: awspicto;
+	font-size: 22px;
+	font-size: 2.2vh;
+}
+
+.x-container-icon.rainy:before {
+	content: "\e616";
+	font-family: awspicto;
+	font-size: 34px;
+	font-size: 3.4vh;
+}
+
+.x-container-icon.stormy:before {
+	content: "\e618";
+	font-family: awspicto;
+	font-size: 27px;
+	font-size: 2.7vh;
+}
+
+/*DATA CELL */
+.x-container-sigTableDataCell0, .x-container-sigTableDataCell1, .x-container-sigTableDataCell2, .x-container-sigTableDataCell3{
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+
+.x-component-dataValue, .x-label-dataValue{
+	display: block;
+	font-size: 18px;
+	font-size: 1.8vh;
+	width:35%;
+	text-align: right;
+}
+
+.x-component-dataRatio, .x-label-dataRatio{
+	position: absolute;
+	top:0;
+	right: 0;
+	border-left: 1px solid #ececec;
+	width: 60px;
+	width: 6.0vh;
+	text-align: center;
+	font-size: 14px;
+	font-size: 1.4vh;
+}
+
+/* DATA  CELL 0 */
+.x-container-sigTableDataCell0 .x-component-dataValue, .x-container-sigTableDataCell0 .x-label-dataValue{
+	height: 51px;
+	height: 5.1vh;
+	line-height: 51px;
+	line-height: 5.1vh;
+}
+
+.x-container-sigTableDataCell0 .x-component-dataRatio, .x-container-sigTableDataCell0 .x-label-dataRatio {
+	height: 51px;
+	height: 5.1vh;
+	line-height: 51px;
+	line-height: 5.1vh;
+}
+
+/* DATA  CELL 1 */
+.x-container-sigTableDataCell1 .x-component-dataValue, .x-container-sigTableDataCell1 .x-label-dataValue{
+	height: 37px;
+	height: 3.7vh;
+	line-height: 37px;
+	line-height: 3.7vh;
+	font-weight: bold;
+}
+
+.x-container-sigTableDataCell1 .x-component-dataRatio, .x-container-sigTableDataCell1 .x-label-dataRatio{
+	font-weight: bold;
+}
+
+.x-container-sigTableDataCell1 .x-component-dataRatio, .x-container-sigTableDataCell1 .x-label-dataRatio{
+	height: 37px;
+	height: 3.7vh;
+	line-height: 37px;
+	line-height: 3.7vh;
+}
+
+
+/* DATA  CELL 2 */
+.x-container-sigTableDataCell2 .x-component-dataValue, .x-container-sigTableDataCell2 .x-label-dataValue{
+	height: 60px;
+	height: 6.0vh;
+	line-height: 60px;
+	line-height: 6.0vh;
+}
+
+.x-container-sigTableDataCell2 .x-component-dataRatio, .x-container-sigTableDataCell2 .x-label-dataRatio{
+	height: 60px;
+	height: 6.0vh;
+	line-height: 60px;
+	line-height: 6.0vh;
+}
+
+
+/* DATA  CELL 3 */
+.x-container-sigTableDataCell3 .x-component-dataValue, .x-container-sigTableDataCell3 .x-label-dataValue{
+	height: 55px;
+	height: 5.5vh;
+	line-height: 55px;
+	line-height: 5.5vh;
+	font-weight: bold;
+}
+
+.x-container-sigTableDataCell3 .x-component-dataRatio, .x-container-sigTableDataCell3 .x-label-dataRatio{
+	font-weight: bold;
+}
+
+.x-container-sigTableDataCell3 .x-component-dataRatio, .x-container-sigTableDataCell3 .x-label-dataRatio{
+	height: 55px;
+	height: 5.5vh;
+	line-height: 55px;
+	line-height: 5.5vh;
+}
+
+.iconHorizontal:before{
+	font-size: 80px !important;
+	font-size: 8vh !important;
+}
+
+/* Bilan pedagogique */
+.x-panel-bpPanel{
+	border-right: solid 1px #C3C3C3;
+}
+
+.x-panel-bpTitle{
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 10px;
+	background: #F5F5F5;
+	color: #363837;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.x-panel-bpTitleValue{
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 10px;
+	background: #F5F5F5;
+	color: #363837;
+	text-transform: uppercase;
+}
+
+.x-panel-bpLabel{
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 10px;
+	border-top: solid 1px #C3C3C3;
+	color: #363837;
+	white-space: nowrap;
+}
+
+.bpTotalLabel{
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 10px;
+	background: #C3C3C3;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	min-height: 37px;
+}
+
+.x-panel-bpValue{
+	font-size: 18px;
+	line-height: 36px;
+	padding-right: 20px;
+	text-align: right;
+	border-top: solid 1px #C3C3C3;
+	color: #363837;
+}
+
+.bpTotalValue{
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 10px;
+	background: #C3C3C3;
+	color: #363837;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.dblSep{
+	border-top: solid 2px #C3C3C3;
+}
+
+.noSep{
+	border-top: 0 !important;
+}

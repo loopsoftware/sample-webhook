@@ -1,0 +1,198 @@
+/* Application title*/
+#left-Navigation #appTitleText:before{
+	color: #F0F0F0;
+	font-size: 28px;
+	line-height: 64px;
+	padding: 0 0 0 20px;
+}
+
+/* Indicateurs */
+.x-panel-indicator{
+	text-align: center;
+	border: solid 1px #c3c3c3;
+}
+
+
+.x-panel-indicator .table_no_border	{ 
+	border-collapse:collapse;
+	width: 100%;
+}
+
+.x-panel-indicator .table_no_border td	{ 
+	border-left:none;
+	border-bottom:none;
+	border-top:none;
+	padding:10px 13px;
+	padding:1vh 1vh;
+}
+
+.x-panel-indicator .txt_maj	{
+	text-transform:uppercase;
+}
+
+.x-panel-indicator .txt_blanc	{ 
+	color:#fff;
+}
+
+.x-panel-indicator .txt_violet	{ 
+	color:#59358c;
+}
+
+.x-panel-indicator .txt_18	{
+	font-size:18px;
+	font-size:1.8vh;
+}
+
+.x-panel-indicator .txt_20	{
+	font-size:20px;
+	font-size:2.0vh;
+}
+
+.x-panel-indicator .txt_24	{
+	font-size:24px;
+	font-size:2.4vh;
+}
+
+.x-panel-indicator .txt_28	{
+	font-size:36px;
+	font-size:3.6vh;
+}
+
+.x-panel-indicator .txt_36	{
+	font-size:42px;
+	font-size:4.2vh;
+}
+
+.x-panel-indicator .txt_42	{
+	font-size:42px;
+	font-size:4.2vh;
+}
+
+.x-panel-indicator .txt_48	{
+	font-size:48px;
+	font-size:4.8vh;
+}
+
+.fontLight{
+	font-family: latoLight;
+}
+
+
+.x-table-row-error-facturation div {
+	background-color: rgb(255, 219, 219);
+}
+
+.dossier-synthese-supervision p {
+	text-align : center;
+	font-weight: bold;
+	color: rgb(100, 43, 138);
+	font-size: 18px;
+	/*margin: 10px 0px 10px 0px;*/
+	margin: 15px 0px 15px 20px;
+}
+
+.anomalies-synthese-supervision p {
+	margin: 15px 0px 15px 20px;
+}
+
+.tableau-synthese-supervision table {
+	border-spacing: 0px;
+}
+
+.tableau-synthese-supervision tr:nth-child(odd) {
+	background-color: #F5F5F5;
+}
+
+.tableau-synthese-supervision th, .tableau-synthese-supervision td {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 25px;
+	font: normal 13px/15px lato,"Helvetica Neue",HelveticaNeue,"Helvetica-Neue",Helvetica,"BBAlpha Sans",sans-serif;
+}
+
+.tableau-synthese-supervision th {
+	color: #666;
+	border-right: 1px solid #C0C0C0;
+}
+
+.tableau-synthese-supervision td {
+	border-right: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.chiffrescle-synthese-supervision th, .chiffrescle-synthese-supervision td {
+	text-align: right;
+}
+
+.pointsuspens-synthese-supervision th, .pointsuspens-synthese-supervision td {
+	text-align: left;
+}
+
+.colsmall-synthese-supervision {
+	/*width: 50px;*/
+}
+
+.colmedium-synthese-supervision {
+	/*width: 150px;*/
+}
+
+.collarge-synthese-supervision {
+	/*width: 250px;*/
+}
+
+.tableau-left-synthese-supervision {
+	text-align: left !important;
+}
+
+.bbar-synthese-supervision {
+	height: 50px;
+	background-color: #c4c4c4;
+}
+
+#app4office-title h1 {
+	margin: 0;
+	padding: 0;
+	height: 54px;
+	color: #00ACC8;
+}
+
+#app4office-title .company {
+	display: block;
+	position: absolute;
+	padding: 0 0 0 58px;
+	font-size: 12px;
+}
+
+#app4office-title .application {
+	display: block;
+	position: relative;
+	top: 14px;
+	padding: 8px 0 0 0px;
+	font-size: 28px;
+}
+
+#menu-panel.officeMenu {
+	padding-right: 0;
+}
+
+#menu-panel.officeMenu .x-box-inner {
+	margin: 10px 0 0 4px;
+}
+
+.office-dialog-big-footer .x-toolbar-footer .x-box-inner .x-box-target {
+	text-align: center;
+}
+
+.office-dialog-big-footer .x-toolbar-footer .x-box-inner .x-btn {
+	margin: 0 6px 6px 0 !important;
+	position: static !important;
+}
+
+.awsVersion h2 {
+  margin: 20px 25px 20px 30px;
+  background: url(resource?urn=themes/images/AWS-Logo.png) no-repeat;
+  background-size: 48px;
+  padding-left: 65px;
+  line-height: 48px;
+  font-size: 24px;
+}

@@ -1,0 +1,54 @@
+{
+    "projectName": "Loop",
+    "name":"standard",
+    "licenseText": "Copyright 2016 KPMG TS",
+	"resources": [
+		{
+			"path":"themes/standard/",
+			"name":"loop.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"declaration.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"revision.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"essentiel.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"saisie.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"condensation.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/standard/",
+			"name":"dp.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/fonts/",
+			"name":"loopIconFont.css",
+			"type":"css"
+		},
+		{
+			"path":"themes/fonts/loopIconFont/",
+			"name":"loopIconFont.woff",
+			"type":"font"
+		}
+	],
+    "builds": [
+    ]
+}

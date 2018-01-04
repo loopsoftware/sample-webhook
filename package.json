@@ -1,0 +1,72 @@
+{
+  "name": "ypn-webhook-example",
+  "description": "Example of a webhook app",
+  "id": "d643c493-f199-445b-a4ca-2885fe3eea08",
+  "version": "1.0.0",
+  "modules": [{
+    "name": "webhook_app",
+    "id": "7580e366-e661-4fd3-87b5-ce2f22fdae06",
+    "version": "1.0.0"
+  }],
+  "namespaces": {
+    "testNameSpace": [{
+      "name": "webhook_app",
+      "id": "7580e366-e661-4fd3-87b5-ce2f22fdae06"
+    }]
+  },
+  "themes": {
+    "standard": { "name": "standard", "main": "true" }
+  },
+  "roles": [{
+    "id": "ad3eb645-2a17-4797-8e41-1496175d84cb",
+    "name": "user",
+    "userName": "User",
+    "version": "1.0.0",
+    "modules": [{
+      "name": "webhook_app",
+      "id": "7580e366-e661-4fd3-87b5-ce2f22fdae06",
+      "mainModule": true
+    }]
+  },
+  {
+    "id": "1063a6b7-40ad-455f-955a-aadb69ee8d8c",
+    "name": "supervisor",
+    "userName": "Administrator",
+    "version": "1.0.0",
+    "modules": [{
+      "name": "webhook_app",
+      "id": "7580e366-e661-4fd3-87b5-ce2f22fdae06",
+      "mainModule": true
+    }]
+  }],
+  "profiles": [{
+    "name": "user",
+    "value": "1.0",
+    "description": "User",
+    "id": "1a1e0c3a-4d7d-492e-80f3-30db89755e58",
+    "permissions": {
+      "platform": {
+        "databasePrepare": "true",
+        "sendEmail": "true",
+        "userSetLanguage": "own",
+        "userSetTheme": "own"
+      },
+      "offre": {}
+    }
+  },
+  {
+    "name": "supervisor",
+    "value": "1.0",
+    "description": "Supervisor",
+    "id": "07f925d8-e2a5-4132-b3fa-81a6afad5c4c",
+    "permissions": {
+      "platform": {
+        "databasePrepare": "true",
+        "sendEmail": "true",
+        "userSetLanguage": "own",
+        "userSetTheme": "own"
+      },
+      "offre": {}
+    }
+  }]
+}

@@ -1,0 +1,62 @@
+.revision_feuillesTravailDataview {
+	margin: 20px;
+}
+.revision_feuillesTravailDataview .empty-text {
+	margin: 50px 0 0 0;
+	text-align: center;
+	font-size: 18px;
+}
+.revision_feuillesTravailDataview .thumb-wrap {
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 180px;
+	padding: 2px;
+}
+.revision_feuillesTravailDataview .thumb-wrap.x-item-over {
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	color: #000;
+	background-color: #e7e7e7;
+}
+.revision_feuillesTravailDataview .thumb-wrap.x-item-selected {
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #c2c2c2;
+	color: #000;
+    background-color: #ccc;
+}
+.revision_feuillesTravailDataview .checkbox-selection {
+	margin: 73px 0 0 10px;
+	position: absolute;
+}
+.revision_feuillesTravailDataview .thumb {
+	display: block;
+	margin: 10px 0 0 30px;
+	width: 160px;
+	height: 160px;
+	padding: 9px 9px 9px 9px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e2dbed;
+    background-color: #eee6f9;
+    color: #000;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    display: flex;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+.revision_feuillesTravailDataview .thumb-wrap.x-item-over .thumb {
+    border-color: #cac4d4;
+    background-color: #e2dbed;
+}
+.revision_feuillesTravailDataview .thumb .x-btn-inner {
+	font-size: 14px;
+}

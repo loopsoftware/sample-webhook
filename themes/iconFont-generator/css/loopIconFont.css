@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "loopIconFont";
+  src: url('resource?type=font&name=urn:themes/fonts/loopIconFont/loopIconFont.woff&ext=woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.loop:before {
+  display: inline-block;
+  font-family: "loopIconFont";
+  font-style: normal;
+  font-weight: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.loop-lg:before {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.loop-x2:before { font-size: 1.2em; }
+.loop-x3:before { font-size: 1.6em; }
+.loop-x4:before { font-size: 2em; }
+.loop-x5:before { font-size: 2.2em; }
+.loop-fw:before {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.loop-Copier:before { content: "\EA01" }
+.loop-Delettrer:before { content: "\EA02" }
+.loop-Depointer:before { content: "\EA03" }
+.loop-Deviser:before { content: "\EA04" }
+.loop-Folio:before { content: "\EA05" }
+.loop-Initialiser:before { content: "\EA06" }
+.loop-InterrogerDGFIP:before { content: "\EA07" }
+.loop-Lettrer:before { content: "\EA08" }
+.loop-Lier:before { content: "\EA09" }
+.loop-Ligne:before { content: "\EA0A" }
+.loop-NouvelEnvoiTDFC:before { content: "\EA0B" }
+.loop-Pointer:before { content: "\EA0C" }
+.loop-Proposition:before { content: "\EA0D" }
+.loop-Rapprocher:before { content: "\EA0E" }
+.loop-Reaffectation:before { content: "\EA0F" }
+.loop-Reinitialiser:before { content: "\EA10" }
+.loop-Releve:before { content: "\EA11" }
+.loop-Saisie:before { content: "\EA13" }
+.loop-ReprendreLesRegles:before { content: "\EA12" }
+.loop-Solder:before { content: "\EA14" }
+.loop-Trier:before { content: "\EA15" }
+.loop-VirementPoste:before { content: "\EA16" }
+.loop-bibliotheque:before { content: "\EA19" }
+.loop-Viser:before { content: "\EA17" }
+.loop-VoirImmo:before { content: "\EA18" }
+.loop-list-check:before { content: "\EA1C" }
+.loop-historique:before { content: "\EA1B" }
+.loop-list-uncheck:before { content: "\EA1D" }
+.loop-check:before { content: "\EA1A" }
+.loop-lock:before { content: "\EA1E" }
+.loop-loop-logo:before { content: "\EA1F" }
+.loop-loop:before { content: "\EA20" }
+.loop-uncheck:before { content: "\EA21" }
+.loop-unlock:before { content: "\EA22" }

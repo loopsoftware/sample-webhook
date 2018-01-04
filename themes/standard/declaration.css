@@ -1,0 +1,260 @@
+.declaration_WorkersStatus {
+	width: 22px;
+}
+.declaration_WorkersStatus:before {
+	font-family: awspicto;
+	font-size: 21px;
+	line-height: 5px;
+	position: relative;
+	top: 6px;
+	margin: 0 -1px;
+}
+.declaration_WorkersStatusBackground {
+	position: absolute;
+	top: initial;
+}
+.declaration_WorkersStatusBackground_Level_1:before {
+    content: "\e62c";
+}
+.declaration_WorkersStatusBackground_Level_2:before {
+    content: "\e62d";
+}
+.declaration_WorkersStatusBackground_Level_3:before {
+    content: "\e62e";
+}
+.declaration_WorkersStatusBackground_Level_4:before {
+    content: "\e62f";
+}
+.declaration_WorkersStatusBackground_Level_5:before {
+    content: "\e630";
+}
+.declaration_WorkersStatusBackground_Level_6:before {
+    content: "\e631";
+}
+.declaration_WorkersStatus_Level_0:before {
+    content: "\e625";
+}
+.declaration_WorkersStatus_Level_1:before {
+    content: "\e626";
+}
+.declaration_WorkersStatus_Level_2:before {
+    content: "\e627";
+}
+.declaration_WorkersStatus_Level_3:before {
+    content: "\e628";
+}
+.declaration_WorkersStatus_Level_4:before {
+    content: "\e629";
+}
+.declaration_WorkersStatus_Level_5:before {
+    content: "\e62a";
+}
+.declaration_WorkersStatus_Level_6:before {
+    content: "\e62b";
+}
+
+.declaration_DC_ArpegePanel {
+	background-color: #fff;
+}
+.declaration_DC_ArpegePanel_border {
+	border-color: #d0d0d0 !important;
+}
+.declaration_DC_ArpegeHeader {
+	background-color: #fff;
+}
+.declaration_DC_ArpegeHeaderCell {
+	border: 1px solid #C9C9C9;
+	padding: 0;
+}
+.declaration_DC_ArpegeGrid {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #d0d0d0 !important;
+}
+.declaration_DC_ArpegeGrid .x-grid-header-ct {
+	border-color: #d0d0d0 !important;
+}
+.declaration_DC_ArpegeGrid .x-grid-body {
+	border-color: #d0d0d0 !important;
+}
+.declaration_DC_ArpegeNavigator {
+	border-color: #d0d0d0 !important;
+}
+.declaration_DC_ArpegeGrid .x-toolbar {
+	border-bottom-style: none;
+}
+.declaration_DC_ArpegeGrise {
+	background-color: #ccc;
+}
+.declaration_DC_ArpegeMemoStatique {
+	background-color: #fff;
+	padding: 4px;
+}
+.declaration_DC_ArpegeLibelleStatique {
+	padding: 0 1px;
+}
+.declaration_DC_ArpegeEdit {
+	padding: 0 1px;
+	min-height: inherit;
+	background-color: #dbeee7;
+}
+.declaration_DC_ArpegeEdit-after {
+	padding-left: 24px;
+}
+.declaration_DC_ArpegeCheckBox, .declaration_DC_ArpegeRadioButton {
+	margin-top: 0;
+}
+.x-form-type-checkbox .declaration_DC_ArpegeEdit, .x-form-type-radio .declaration_DC_ArpegeEdit  {
+	background-color: #fff;
+}
+.declaration_DC_ArpegeForm .x-form-cb-wrap-default {
+	height: inherit;
+}
+.declaration_DC_ArpegeForm .x-form-item-body-default {
+	min-height: 0;
+}
+.declaration_DC_ArpegeComboBox_trigger, .declaration_DC_ArpegeEditDate_trigger {
+    line-height: 24px;
+    background-color: #dbeee7;
+}
+.declaration_DC_ArpegeEditor {
+	background-color: #dbeee7;
+}
+
+.declaration_DC_ArpegeSpeedButton_Icon {
+	line-height: 8px;
+}
+
+.pdfPage .x-form-type-checkbox, .pdfPage .x-form-type-radio {
+	background-color: #dbeee7;
+}
+.pdfPage .x-form-cb-wrap-default {
+    font-size: inherit;
+    padding: 0.1em;
+    text-align: center;
+}
+.pdfPage .x-form-cb-wrap-inner {
+	width: 100%;
+    height: 100%;
+    font-size: inherit;
+}
+.pdfPage .declaration_DC_ArpegeCheckBox, .pdfPage .declaration_DC_ArpegeRadioButton {
+	width: 100%;
+    height: 100%;
+    font-size: inherit;
+    font-family: FontAwesome;
+}
+.pdfPage .declaration_DC_ArpegeCheckBox:before, .pdfPage .declaration_DC_ArpegeRadioButton:before {
+	content: "";
+}
+.pdfPage .x-form-cb-checked .declaration_DC_ArpegeCheckBox:before {
+	content: "\f00c";
+}
+.pdfPage .x-form-cb-checked .declaration_DC_ArpegeRadioButton:before {
+	content: "\f00d";
+}
+.pdfPage .x-btn-button {
+	line-height: inherit;
+    font-size: inherit;
+    min-height: 0;
+}
+.pdfPage .x-btn-inner {
+	line-height: inherit;
+    font-size: inherit;
+    padding: 0 0.2em;
+}
+.pdfPage .declaration_DC_ArpegeSpeedButton {
+	padding: 0;
+}
+.pdfPage .declaration_DC_ArpegeSpeedButton_Icon {
+	margin-right: 0.1em !important;
+}
+.pdfPage .declaration_DC_ArpegeComboBox_trigger, .pdfPage .declaration_DC_ArpegeEditDate_trigger, .pdfPage .declaration_DC_ArpegeSpeedButton_Icon {
+	line-height: inherit;
+	font-size: inherit;
+	width: 1.5em;
+	height: inherit;
+}
+.pdfCheckbox {
+	font-family: FontAwesome;
+}
+
+.declaration_Anomalies_checkbox .x-grid-cell-inner {
+	padding-bottom: 1px;
+}
+
+.declaration_StatusBar_Message .declaration_Anomalies_Tilte_Text {
+	cursor: pointer;
+}
+.declaration_StatusBar_Message .declaration_Anomalies_Tilte_Text:hover {
+	text-decoration: underline;
+}
+.declaration_Anomalies_Loading, .declaration_Anomalies_Tilte {
+	margin: 8px 0;
+	display: flex;
+}
+.declaration_Anomalies_Element, .declaration_Anomalies_Item {
+	display: flex;
+	white-space: normal !important;
+}
+.declaration_Anomalies_Loading_Icon, .declaration_Anomalies_Tilte_Icon {
+	display: block;
+	font-size: 26px;
+	margin: 0 2px;
+}
+.declaration_Anomalies_Element_Icon, .declaration_Anomalies_Item_Icon {
+	display: block;
+	font-size: 16px;
+}
+.declaration_Anomalies_Loading_Text, .declaration_Anomalies_Tilte_Text {
+	display: block;
+	margin-left: 6px;
+	font-size: 16px;
+}
+.declaration_Anomalies_Element_Text, .declaration_Anomalies_Item_Text {
+	display: block;
+	margin-left: 4px;
+}
+.declaration_Anomalies_Item_Text {
+	cursor: pointer;
+}
+.declaration_Anomalies_Item_Text:hover {
+	text-decoration: underline;
+}
+.declaration_Anomalies_Tilte_ok, .declaration_Anomalies_Group_ok, .declaration_Anomalies_Element_ok {
+	font-weight: bold !important;
+}
+.declaration_Anomalies_Tilte_warning, .declaration_Anomalies_Group_warning, .declaration_Anomalies_Element_warning {
+	font-weight: bold !important;
+}
+.declaration_Anomalies_Tilte_forbidding, .declaration_Anomalies_Group_forbidding, .declaration_Anomalies_Element_forbidding {
+	font-weight: bold !important;
+}
+.declaration_Anomalies_Item_warning {
+	font-weight: bold;
+}
+.declaration_Anomalies_Item_forbidding {
+	font-weight: bold;
+}
+.declaration_Anomalies_Item_inactive {
+	font-weight: normal;
+}
+.declaration_Anomalies_Item_disabled {
+	font-style: italic;
+}
+.declaration_Anomalies_Item_Icon {
+	font-weight: normal;
+	font-style: normal;
+}
+.x-toolbar-default .StatusBarSeparator {
+	border-left-color: #969696;
+	border-width: 0 0 0 2px;
+}
+
+.declaration_documentSommaire_link {
+	display: block;
+	text-decoration: none;
+	color: #00c6c9;
+}

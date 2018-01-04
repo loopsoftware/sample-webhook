@@ -1,0 +1,24 @@
+.odd-alt {
+	background-color: #fff;
+	color: #000;
+}
+
+.even-alt{ 
+	background-color: #f6f6f6;
+}
+
+.even-alt .x-grid-cell.x-grid-cell-selected{ 
+	background-color: #dddddd;
+}
+
+.x-grid-item-selected .odd-alt{ 
+	background-color: #cccccc;
+}
+
+.x-grid-item-selected .even-alt{ 
+	background-color: #dddddd;
+}
+
+.x-grid-item-hided {
+	display: none;
+}
