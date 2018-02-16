@@ -120,3 +120,36 @@
    ```
 
  - trigger an event by uploading a file to the list 
+
+ ## Sendgrid
+ 
+SendGrid webhook requires exatly one subscription to process the webhook.
+
+ - register a webhook 
+   ```
+    curl 'https://devloop.loopsoftware.fr/YPND/user/*/webhook/register?id=0' \
+    -H 'content-type: application/json' \
+    -b 'sessionId=<session id>' \
+    --data-binary '
+      {
+        "role":"user",
+        "module":"webhook_app",
+        "version":"2.0.4.1.0.0",
+        "subscription":"sendgrid/subscribe",
+        "authentication":"sendgrid/handle",
+        "process":"sendgrid/process"
+      }'
+   ```
+ - retrieve webhook path e.g. `/webhook/47163344-4fc5-49a9-ae9d-018ed4d248f2`
+ - subscribe to the webhook
+   ```
+   curl 'https://devloop.loopsoftware.fr/YPND/user/*/webhook/subscribe?id=47163344-4fc5-49a9-ae9d-018ed4d248f2' \
+      -H 'content-type: application/json' \
+      -b 'sessionId=deaad373-b025-41a3-b7e5-b182189fa1ed' \
+      --data-binary '{}'
+   ```
+ - go to [SendGrid Inbound Parse](https://app.sendgrid.com/settings/parse) and create a rule for the target domain:
+   - set `Destination URL` to the webhook endpoint:  https://devloop.loopsoftware.fr/webhook/47163344-4fc5-49a9-ae9d-018ed4d248f2
+   - check `POST the raw, full MIME message` checkbox   
+ - trigger the webhook by sending emails to the target domain
+ 
