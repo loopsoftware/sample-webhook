@@ -201,7 +201,9 @@ exports.REST = {
                 return {
                     data: {
                         userData: {changeQuery: webhook.changeQuery, changeToken: data.ChangeToken.StringValue},
-                        response: {ok: true}
+                        response: {ok: true},
+                        // allow no more than 1 subscription per SPO subscriptionId.
+                        constraint: {userData: {subscriptionId: event.subscriptionId}},
                     }
                 };
             });

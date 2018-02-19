@@ -28,7 +28,12 @@ exports.REST = {
     },
 
     subscribe(_args, _options, _serv, _role, _session) {
-        return Promise.resolve({data: {userData: {some: "dataSub", subscribe: "from app"}, response: {ok: true}}});
+        return Promise.resolve({data: {
+            userData: {some: "dataSub", subscribe: "from app"},
+            response: {ok: true},
+            // allow no more than 1 subscription per QB company.
+            constraint: {userData: {realmId: _options.realmId}}
+        }});
     },
 
     handle(_args, _options, _serv, _role, _session) {
