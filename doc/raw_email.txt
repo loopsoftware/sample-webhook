@@ -1,0 +1,66 @@
+Received: by mx0012p1las1.sendgrid.net with SMTP id 1Q9906RGb1 Fri, 16 Feb 2018 18:42:00 +0000 (UTC)
+Received: from also-fr.letsignit.com (unknown [10.43.24.23]) by mx0012p1las1.sendgrid.net (Postfix) with ESMTPS id C1C37883BE1 for <recipient@our.domain.fr>; Fri, 16 Feb 2018 18:41:59 +0000 (UTC)
+Received: from also-fr.letsignit.com (localhost [127.0.0.1]) by also-fr.letsignit.com (Postfix) with ESMTP id 9C631AC015B for <recipient@our.domain.fr>; Fri, 16 Feb 2018 19:41:58 +0100 (CET)
+Received: from also-fr.letsignit.com (localhost [127.0.0.1]) by localhost with SMTP (LetSignIt ESMTP MAIL Service, Version: 1.0 ready at Fri Feb 16 19:41:58 CET 2018) id B164A7C6A34F4573A6F2B104B9592149 for recipient@our.domain.fr; Fri, 16 Feb 2018 19:41:58 +0100 (CET)
+Received: from EUR01-VE1-obe.outbound.protection.outlook.com (mail-ve1eur01lp0248.outbound.protection.outlook.com [213.199.154.248]) by also-fr.letsignit.com (Postfix) with ESMTPS id 85F61AC015D for <recipient@our.domain.fr>; Fri, 16 Feb 2018 19:41:58 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kpmgts.onmicrosoft.com; s=selector1-loopsoftware-fr; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version; bh=/5xR3UjPJhx14mEL7xT9pfLaYp65zQfwCjV5JqHd9Jg=; b=jFHW6i7kwEAXBJyVxA+KW6IjK2m3JJIlSJD4YT7aZILaqpb7okEQ6Ty2GQ6caDxsy2nkz43nFrZFrpm+Bb9YIFoiV6ZRtt2YVJECBRf30r1g1NH7I5g/VA/rFQhk8CcPwhCV96RMV9EUv4JGq7eZ2Id1kjOjibv8nKek5oNKBvI=
+Received: from VI1PR0701MB2416.eurprd07.prod.outlook.com (10.168.138.146) by VI1PR0701MB2845.eurprd07.prod.outlook.com (10.173.71.140) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.527.6; Fri, 16 Feb 2018 18:41:56 +0000
+Received: from VI1PR0701MB2416.eurprd07.prod.outlook.com ([fe80::b9c8:f7b1:cf8f:90a5]) by VI1PR0701MB2416.eurprd07.prod.outlook.com ([fe80::b9c8:f7b1:cf8f:90a5%14]) with mapi id 15.20.0506.013; Fri, 16 Feb 2018 18:41:56 +0000
+From: Alex B <alex@loopsoftware.fr>
+To: "recipient@our.domain.fr" <recipient@our.domain.fr>
+Subject: test with attached file
+Thread-Topic: test with attached file
+Thread-Index: AQHTp1XRiISBBAQyMEmwWC5BBl+W0w==
+Date: Fri, 16 Feb 2018 18:41:55 +0000
+Message-ID: <50449F59-30D9-45C6-8AD6-BB2C28925184@loopsoftware.fr>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-originating-ip: [2a00:23c0:5002:2500:6da0:45e1:fe8d:8a39]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;VI1PR0701MB2845;7:93MJFev2JNvOE+FG3T1QWNTwXwJZYGqj/kEv3G+Xk0T8bAUsCAIO+jIf1uvK9gHcIeFxIV48sdChpXxLuDmyS/SI3KzhLduIT6mNBKTF83iN5OO7WkU0Dk81R0urDHy1CBMkLT9j0oh5PM5cEIHEd48xyo63qjKX3YoUQgb4iCCjUNp1NtAFm8BHDVP/GTiIMLGxEhquvgKTvsGurBH3+gGqmRp9W6dvG/Z0NHHkZj1ILXaL0ATpxkfgTcoAXS+w
+x-ms-exchange-antispam-srfa-diagnostics: SSOS;
+x-ms-office365-filtering-correlation-id: 62bc1c59-b10c-4d63-1dbd-08d5756cf469
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(7021125)(4534165)(7022125)(4603075)(4627221)(201702281549075)(7048125)(7024125)(7027125)(7028125)(7023125)(5600026)(4604075)(3008032)(2017052603307)(7153060)(49563074)(7193020);SRVR:VI1PR0701MB2845;
+x-ms-traffictypediagnostic: VI1PR0701MB2845:
+o365: true
+x-microsoft-antispam-prvs: <VI1PR0701MB28458C891C45D1C98726C9D8C3CB0@VI1PR0701MB2845.eurprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040501)(2401047)(8121501046)(5005006)(3002001)(10201501046)(93006095)(93001095)(3231101)(944501161)(6041288)(20161123558120)(20161123562045)(2016111802025)(20161123564045)(20161123560045)(6043046)(6072148)(201708071742011);SRVR:VI1PR0701MB2845;BCL:0;PCL:0;RULEID:;SRVR:VI1PR0701MB2845;
+x-forefront-prvs: 0585417D7B
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(39840400004)(39380400002)(366004)(396003)(346002)(376002)(189003)(199004)(3660700001)(2900100001)(2906002)(53936002)(588024002)(97736004)(305945005)(7736002)(68736007)(5890100001)(99936001)(2501003)(25786009)(5250100002)(106356001)(99286004)(3280700002)(74482002)(36756003)(105586002)(4270600006)(6486002)(19618925003)(5640700003)(6512007)(6436002)(316002)(6116002)(82746002)(2351001)(102836004)(6506007)(83716003)(6346003)(14454004)(8936002)(86362001)(6916009)(5660300001)(33656002)(3480700004)(81166006)(8676002)(81156014)(558084003)(186003)(478600001);DIR:OUT;SFP:1102;SCL:1;SRVR:VI1PR0701MB2845;H:VI1PR0701MB2416.eurprd07.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: loopsoftware.fr does not designate permitted sender hosts)
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=alex@loopsoftware.fr; 
+x-microsoft-antispam-message-info: dt+pai42yM3yZsfXLodTEmEozIqw0dum7vVr6j532prGnym+rixwCyy22iGVVOm6HwHzGTVtUTUTVB2MElZeoQ==
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/mixed; boundary="_002_50449F5930D945C68AD6BB2C28925184loopsoftwarefr_"
+MIME-Version: 1.0
+X-OriginatorOrg: loopsoftware.fr
+X-MS-Exchange-CrossTenant-Network-Message-Id: 62bc1c59-b10c-4d63-1dbd-08d5756cf469
+X-MS-Exchange-CrossTenant-originalarrivaltime: 16 Feb 2018 18:41:55.8678 (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7173f42d-b528-4299-b6a5-55d8be35801b
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0701MB2845
+
+--_002_50449F5930D945C68AD6BB2C28925184loopsoftwarefr_
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <8ACC9A16E19B894CBD009DCA534F1327@eurprd07.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+a text file is attached
+
+
+--_002_50449F5930D945C68AD6BB2C28925184loopsoftwarefr_
+Content-Type: text/plain; name="attached_file.txt"
+Content-Description: attached_file.txt
+Content-Disposition: attachment; filename="attached_file.txt"; size=25;
+	creation-date="Fri, 16 Feb 2018 18:41:55 GMT";
+	modification-date="Fri, 16 Feb 2018 18:41:55 GMT"
+Content-ID: <4E51E211B33F1A479196DA3FC5EB6A0B@eurprd07.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+dGV4dCBpbiB0aGUgYXR0YWNoZW1lbnQNCg==
+
+--_002_50449F5930D945C68AD6BB2C28925184loopsoftwarefr_--
