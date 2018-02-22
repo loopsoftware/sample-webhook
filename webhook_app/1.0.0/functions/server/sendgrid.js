@@ -1,6 +1,6 @@
 
 function isValid(payload) {
-    for(const key of ["from", "subject", "dkim", "charsets", "to", "envelope", "email"]) {
+    for (const key of ["from", "subject", "dkim", "charsets", "to", "envelope", "email"]) {
         if (!payload.hasOwnProperty(key)) {
             return false;
         }
@@ -36,9 +36,9 @@ exports.REST = {
      * @return {Promise.<Object>} response to build HTTP response to SendGrid and data array of a single element with payload to process
      */
     handle(_args, _options) {
-        const {webhook, payload, headers} = JSON.parse(_options.data);
+        const {webhook, payload} = JSON.parse(_options.data);
 
-        if (!isValid(payload)) {
+        if (!isValid(payload.fields)) {
             return Promise.reject(new Error('Invalid payload'));
         }
 
@@ -48,7 +48,7 @@ exports.REST = {
                 data: [{
                     // matches subscription constraint
                     executionContext: {userData: {one: 1}},
-                    body: payload
+                    body: payload.fields
                 }]
             }
         });
@@ -77,6 +77,6 @@ exports.REST = {
         //              console.log({files: email.attachments})});
         //          });
 
-        return Promise.resolve();
+        return Promise.resolve({});
     }
 };
